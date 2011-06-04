@@ -6,12 +6,15 @@ Gem::Specification.new do |s|
   s.name        = "adaptive_payments"
   s.version     = AdaptivePayments::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["TODO: Write your name"]
-  s.email       = ["TODO: Write your email address"]
-  s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
-
+  s.authors     = ["Mauko Quiroga"]
+  s.email       = ["maukoquiroga@gmail.com"]
+  s.homepage    = "http://pictorical.com"
+  s.summary     = %q{Basic PayPal Adaptive Payments API Wrapper}
+  s.description = %q{Basic PayPal Adaptive Payments API Wrapper}
+  
+  s.add_dependency "yajl-ruby"
+  s.add_dependency "monster_mash"
+  
   s.rubyforge_project = "adaptive_payments"
 
   s.files         = `git ls-files`.split("\n")

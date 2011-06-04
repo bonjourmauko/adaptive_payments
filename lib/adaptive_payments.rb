@@ -1,3 +1,9 @@
-module AdaptivePayments
-  # Your code goes here...
-end
+require 'yaml'
+require 'yajl/json_gem'
+require 'net/http'
+require 'net/https'
+require 'adaptive_payments/settings'
+require 'adaptive_payments/base'
+require 'adaptive_payments/request'
+require 'adaptive_payments/request_hasg'
+require 'adaptive_payments/http_connection'
