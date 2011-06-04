@@ -1,0 +1,3 @@
+module AdaptivePayments
+  # Your code goes here...
+end
