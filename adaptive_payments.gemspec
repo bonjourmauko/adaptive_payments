@@ -8,12 +8,13 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Mauko Quiroga"]
   s.email       = ["maukoquiroga@gmail.com"]
-  s.homepage    = "http://pictorical.com"
-  s.summary     = %q{Basic PayPal Adaptive Payments API Wrapper}
-  s.description = %q{Basic PayPal Adaptive Payments API Wrapper}
+  s.homepage    = "https://github.com/maukoquiroga/adaptive_payments"
+  s.summary     = %q{TODO: README}
+  s.description = %q{Basic PayPal Adaptive Payments API Gem}
   
   s.add_dependency "yajl-ruby"
-  s.add_dependency "monster_mash"
+  s.add_dependency "nestful"
+  s.add_dependency "activesupport", "< 3.0.8.rc4"
   
   s.rubyforge_project = "adaptive_payments"
 
