@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.authors     = ["Mauko Quiroga"]
   s.email       = ["maukoquiroga@gmail.com"]
   s.homepage    = "https://github.com/maukoquiroga/adaptive_payments"
-  s.summary     = %q{TODO: README}
+  s.summary     = %q{README}
   s.description = %q{Basic PayPal Adaptive Payments API Gem}
   
   s.add_dependency "yajl-ruby"
