@@ -1,4 +1,5 @@
 #Parallel Payment Example
+Inspired from tc's *paypal_adaptive* https://github.com/tc/paypal_adaptive 
 
 *config/paypal.yml*
 
