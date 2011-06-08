@@ -1,4 +1,4 @@
-#PARALLEL PAYMENTS EXAMPLE
+#Parallel Payment Example
 
 *config/paypal.yml*
 
