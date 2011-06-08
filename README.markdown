@@ -1,7 +1,8 @@
-**PARALLEL PAYMENTS EXAMPLE**
+#PARALLEL PAYMENTS EXAMPLE
 
 *config/paypal.yml*
 
+```yml
 credentials:
   production:
     username:       
@@ -21,9 +22,12 @@ base_url_mapping:
   api:
     production:     "https://svcs.paypal.com"
     development:    "https://svcs.sandbox.paypal.com"
+```
+
     
 *lib/test_app.rb*
 
+```ruby
 class TestApp < ActionController::Metal
   include ActionController::Rendering
   include ActionController::Redirecting
@@ -61,3 +65,4 @@ class TestApp < ActionController::Metal
     render
   end
 end
+```
